@@ -1,5 +1,5 @@
 ---
-name: tufte-data-viz
+name: dataviz-tufte
 description: >-
   Use when creating, reviewing, or styling charts, graphs, dashboards,
   sparklines, or any data visualization. Applies to Recharts, ECharts,
