@@ -181,6 +181,8 @@ For small multiples, sparklines, and slopegraph implementation patterns, see `ru
 
 **Categorical (max 4):** `#4e79a7` steel blue · `#f28e2b` tangerine · `#e15759` coral · `#76b7b2` sage
 
+**Validate categorical palettes before shipping** with a CVD-aware color validator — the checks that matter: colors sit in a mid lightness band, chroma above gray, worst adjacent-pair ΔE ≥ 15 including deuteranopia, and ≥3:1 contrast against the chart surface. If any pair fails, substitute a validated palette rather than hand-tuning individual hexes.
+
 Font stacks in rule 10. For full palettes (sequential, diverging), font loading, and old-style figures, see `rules/typography-and-color.md`.
 
 ---
